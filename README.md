@@ -36,6 +36,8 @@ Across these thresholds, the `social_floor_feedback` rule provides the best
 floor security for floors `100`, `150`, and `200`, while `no_tax` preserves
 slightly higher productivity.
 
+![Social floor sensitivity](figures/social_floor_sensitivity.svg)
+
 | Social floor | Best floor-gap policy | Mean floor gap | Best productivity policy | Mean productivity |
 | --- | --- | ---: | --- | ---: |
 | 50 | high_progressive_tax | 17.167 | no_tax | 377.278 |
@@ -47,6 +49,12 @@ Interpretation: the deterministic feedback rule modestly improves the minimum
 social floor metric, but the effect is not large. The result should be treated
 as a falsifiable baseline for future learned-planner experiments, not as a
 policy conclusion.
+
+To regenerate the figure from the sensitivity summary:
+
+```bash
+python experiments/generate_figures.py
+```
 
 ---
 

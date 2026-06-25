@@ -85,6 +85,21 @@ This tests whether the baseline result is specific to one arbitrary floor or
 whether the policy ranking is stable as the minimum economic security threshold
 becomes more demanding.
 
+## Figures
+
+`generate_figures.py` creates a dependency-free SVG figure from the sensitivity
+summary:
+
+```bash
+python experiments/generate_figures.py
+```
+
+Output:
+
+```text
+figures/social_floor_sensitivity.svg
+```
+
 ## Legacy Objective Weight Sweep
 
 `objective_weight_sweep.py` makes the AI Economist-style government objective

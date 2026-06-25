@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-label="Social floor sensitivity results">
+<style>
+  .title { font: 700 24px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #18202b; }
+  .subtitle { font: 400 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
+  .panel-title { font: 700 16px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #18202b; }
+  .axis-label { font: 600 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
+  .tick-label { font: 11px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
+  .legend { font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #253043; }
+  .axis { stroke: #39475a; stroke-width: 1; }
+  .tick { stroke: #39475a; stroke-width: 1; }
+  .grid { stroke: #d9dee7; stroke-width: 1; }
+</style>
+<rect width="1100" height="760" fill="#ffffff" />
+<text x="36" y="42" class="title">Minimum Social Floor Sensitivity</text>
+<text x="36" y="68" class="subtitle">Deterministic tax-rule baselines across social-floor thresholds. Lower floor gap is better; higher floor security and productivity are better.</text>
+<line x1="36" y1="106" x2="60" y2="106" stroke="#4C78A8" stroke-width="3" />
+<text x="68" y="110" class="legend">No tax</text>
+<line x1="216" y1="106" x2="240" y2="106" stroke="#F58518" stroke-width="3" />
+<text x="248" y="110" class="legend">Low progressive</text>
+<line x1="396" y1="106" x2="420" y2="106" stroke="#54A24B" stroke-width="3" />
+<text x="428" y="110" class="legend">High progressive</text>
+<line x1="576" y1="106" x2="600" y2="106" stroke="#B279A2" stroke-width="3" />
+<text x="608" y="110" class="legend">Social-floor feedback</text>
+<text x="36" y="163" class="panel-title">Floor Gap</text>
+<line x1="88" y1="363" x2="518" y2="363" class="axis" />
+<line x1="88" y1="187" x2="88" y2="363" class="axis" />
+<text x="88" y="397" class="axis-label">Social floor</text>
+<text x="38" y="175" class="axis-label">Mean shortfall</text>
+<line x1="88.0" y1="363" x2="88.0" y2="368" class="tick" />
+<text x="88.0" y="383" class="tick-label" text-anchor="middle">50</text>
+<line x1="231.3" y1="363" x2="231.3" y2="368" class="tick" />
+<text x="231.3" y="383" class="tick-label" text-anchor="middle">100</text>
+<line x1="374.7" y1="363" x2="374.7" y2="368" class="tick" />
+<text x="374.7" y="383" class="tick-label" text-anchor="middle">150</text>
+<line x1="518.0" y1="363" x2="518.0" y2="368" class="tick" />
+<text x="518.0" y="383" class="tick-label" text-anchor="middle">200</text>
+<line x1="83" y1="363.0" x2="88" y2="363.0" class="tick" />
+<line x1="88" y1="363.0" x2="518" y2="363.0" class="grid" />
+<text x="80" y="367.0" class="tick-label" text-anchor="end">9.8</text>
+<line x1="83" y1="275.0" x2="88" y2="275.0" class="tick" />
+<line x1="88" y1="275.0" x2="518" y2="275.0" class="grid" />
+<text x="80" y="279.0" class="tick-label" text-anchor="end">63.3</text>
+<line x1="83" y1="187.0" x2="88" y2="187.0" class="tick" />
+<line x1="88" y1="187.0" x2="518" y2="187.0" class="grid" />
+<text x="80" y="191.0" class="tick-label" text-anchor="end">116.9</text>
+<path d="M 88.0 350.9 L 231.3 304.2 L 374.7 253.5 L 518.0 201.0" fill="none" stroke="#54A24B" stroke-width="2.5" />
+<circle cx="88.0" cy="350.9" r="3.5" fill="#54A24B" />
+<circle cx="231.3" cy="304.2" r="3.5" fill="#54A24B" />
+<circle cx="374.7" cy="253.5" r="3.5" fill="#54A24B" />
+<circle cx="518.0" cy="201.0" r="3.5" fill="#54A24B" />
+<path d="M 88.0 349.4 L 231.3 302.6 L 374.7 251.6 L 518.0 199.1" fill="none" stroke="#F58518" stroke-width="2.5" />
+<circle cx="88.0" cy="349.4" r="3.5" fill="#F58518" />
+<circle cx="231.3" cy="302.6" r="3.5" fill="#F58518" />
+<circle cx="374.7" cy="251.6" r="3.5" fill="#F58518" />
+<circle cx="518.0" cy="199.1" r="3.5" fill="#F58518" />
+<path d="M 88.0 349.4 L 231.3 302.6 L 374.7 251.6 L 518.0 199.1" fill="none" stroke="#4C78A8" stroke-width="2.5" />
+<circle cx="88.0" cy="349.4" r="3.5" fill="#4C78A8" />
+<circle cx="231.3" cy="302.6" r="3.5" fill="#4C78A8" />
+<circle cx="374.7" cy="251.6" r="3.5" fill="#4C78A8" />
+<circle cx="518.0" cy="199.1" r="3.5" fill="#4C78A8" />
+<path d="M 88.0 350.9 L 231.3 304.5 L 374.7 253.8 L 518.0 201.3" fill="none" stroke="#B279A2" stroke-width="2.5" />
+<circle cx="88.0" cy="350.9" r="3.5" fill="#B279A2" />
+<circle cx="231.3" cy="304.5" r="3.5" fill="#B279A2" />
+<circle cx="374.7" cy="253.8" r="3.5" fill="#B279A2" />
+<circle cx="518.0" cy="201.3" r="3.5" fill="#B279A2" />
+<text x="575" y="163" class="panel-title">Floor Security</text>
+<line x1="627" y1="363" x2="1047" y2="363" class="axis" />
+<line x1="627" y1="187" x2="627" y2="363" class="axis" />
+<text x="627" y="397" class="axis-label">Social floor</text>
+<text x="577" y="175" class="axis-label">Security score</text>
+<line x1="627.0" y1="363" x2="627.0" y2="368" class="tick" />
+<text x="627.0" y="383" class="tick-label" text-anchor="middle">50</text>
+<line x1="767.0" y1="363" x2="767.0" y2="368" class="tick" />
+<text x="767.0" y="383" class="tick-label" text-anchor="middle">100</text>
+<line x1="907.0" y1="363" x2="907.0" y2="368" class="tick" />
+<text x="907.0" y="383" class="tick-label" text-anchor="middle">150</text>
+<line x1="1047.0" y1="363" x2="1047.0" y2="368" class="tick" />
+<text x="1047.0" y="383" class="tick-label" text-anchor="middle">200</text>
+<line x1="622" y1="363.0" x2="627" y2="363.0" class="tick" />
+<line x1="627" y1="363.0" x2="1047" y2="363.0" class="grid" />
+<text x="619" y="367.0" class="tick-label" text-anchor="end">0.4</text>
+<line x1="622" y1="275.0" x2="627" y2="275.0" class="tick" />
+<line x1="627" y1="275.0" x2="1047" y2="275.0" class="grid" />
+<text x="619" y="279.0" class="tick-label" text-anchor="end">0.6</text>
+<line x1="622" y1="187.0" x2="627" y2="187.0" class="tick" />
+<line x1="627" y1="187.0" x2="1047" y2="187.0" class="grid" />
+<text x="619" y="191.0" class="tick-label" text-anchor="end">0.7</text>
+<path d="M 627.0 199.1 L 767.0 282.6 L 907.0 322.7 L 1047.0 346.7" fill="none" stroke="#54A24B" stroke-width="2.5" />
+<circle cx="627.0" cy="199.1" r="3.5" fill="#54A24B" />
+<circle cx="767.0" cy="282.6" r="3.5" fill="#54A24B" />
+<circle cx="907.0" cy="322.7" r="3.5" fill="#54A24B" />
+<circle cx="1047.0" cy="346.7" r="3.5" fill="#54A24B" />
+<path d="M 627.0 212.4 L 767.0 289.6 L 907.0 328.2 L 1047.0 350.9" fill="none" stroke="#F58518" stroke-width="2.5" />
+<circle cx="627.0" cy="212.4" r="3.5" fill="#F58518" />
+<circle cx="767.0" cy="289.6" r="3.5" fill="#F58518" />
+<circle cx="907.0" cy="328.2" r="3.5" fill="#F58518" />
+<circle cx="1047.0" cy="350.9" r="3.5" fill="#F58518" />
+<path d="M 627.0 212.4 L 767.0 289.6 L 907.0 328.2 L 1047.0 350.9" fill="none" stroke="#4C78A8" stroke-width="2.5" />
+<circle cx="627.0" cy="212.4" r="3.5" fill="#4C78A8" />
+<circle cx="767.0" cy="289.6" r="3.5" fill="#4C78A8" />
+<circle cx="907.0" cy="328.2" r="3.5" fill="#4C78A8" />
+<circle cx="1047.0" cy="350.9" r="3.5" fill="#4C78A8" />
+<path d="M 627.0 199.1 L 767.0 281.4 L 907.0 321.6 L 1047.0 345.9" fill="none" stroke="#B279A2" stroke-width="2.5" />
+<circle cx="627.0" cy="199.1" r="3.5" fill="#B279A2" />
+<circle cx="767.0" cy="281.4" r="3.5" fill="#B279A2" />
+<circle cx="907.0" cy="321.6" r="3.5" fill="#B279A2" />
+<circle cx="1047.0" cy="345.9" r="3.5" fill="#B279A2" />
+<text x="305" y="473" class="panel-title">Productivity</text>
+<line x1="357" y1="673" x2="787" y2="673" class="axis" />
+<line x1="357" y1="497" x2="357" y2="673" class="axis" />
+<text x="357" y="707" class="axis-label">Social floor</text>
+<text x="307" y="485" class="axis-label">Mean coin</text>
+<line x1="357.0" y1="673" x2="357.0" y2="678" class="tick" />
+<text x="357.0" y="693" class="tick-label" text-anchor="middle">50</text>
+<line x1="500.3" y1="673" x2="500.3" y2="678" class="tick" />
+<text x="500.3" y="693" class="tick-label" text-anchor="middle">100</text>
+<line x1="643.7" y1="673" x2="643.7" y2="678" class="tick" />
+<text x="643.7" y="693" class="tick-label" text-anchor="middle">150</text>
+<line x1="787.0" y1="673" x2="787.0" y2="678" class="tick" />
+<text x="787.0" y="693" class="tick-label" text-anchor="middle">200</text>
+<line x1="352" y1="673.0" x2="357" y2="673.0" class="tick" />
+<line x1="357" y1="673.0" x2="787" y2="673.0" class="grid" />
+<text x="349" y="677.0" class="tick-label" text-anchor="end">376.1</text>
+<line x1="352" y1="585.0" x2="357" y2="585.0" class="tick" />
+<line x1="357" y1="585.0" x2="787" y2="585.0" class="grid" />
+<text x="349" y="589.0" class="tick-label" text-anchor="end">376.7</text>
+<line x1="352" y1="497.0" x2="357" y2="497.0" class="tick" />
+<line x1="357" y1="497.0" x2="787" y2="497.0" class="grid" />
+<text x="349" y="501.0" class="tick-label" text-anchor="end">377.4</text>
+<path d="M 357.0 644.9 L 500.3 644.9 L 643.7 644.9 L 787.0 644.9" fill="none" stroke="#54A24B" stroke-width="2.5" />
+<circle cx="357.0" cy="644.9" r="3.5" fill="#54A24B" />
+<circle cx="500.3" cy="644.9" r="3.5" fill="#54A24B" />
+<circle cx="643.7" cy="644.9" r="3.5" fill="#54A24B" />
+<circle cx="787.0" cy="644.9" r="3.5" fill="#54A24B" />
+<path d="M 357.0 660.9 L 500.3 660.9 L 643.7 660.9 L 787.0 660.9" fill="none" stroke="#F58518" stroke-width="2.5" />
+<circle cx="357.0" cy="660.9" r="3.5" fill="#F58518" />
+<circle cx="500.3" cy="660.9" r="3.5" fill="#F58518" />
+<circle cx="643.7" cy="660.9" r="3.5" fill="#F58518" />
+<circle cx="787.0" cy="660.9" r="3.5" fill="#F58518" />
+<path d="M 357.0 509.1 L 500.3 509.1 L 643.7 509.1 L 787.0 509.1" fill="none" stroke="#4C78A8" stroke-width="2.5" />
+<circle cx="357.0" cy="509.1" r="3.5" fill="#4C78A8" />
+<circle cx="500.3" cy="509.1" r="3.5" fill="#4C78A8" />
+<circle cx="643.7" cy="509.1" r="3.5" fill="#4C78A8" />
+<circle cx="787.0" cy="509.1" r="3.5" fill="#4C78A8" />
+<path d="M 357.0 652.9 L 500.3 660.9 L 643.7 660.9 L 787.0 660.9" fill="none" stroke="#B279A2" stroke-width="2.5" />
+<circle cx="357.0" cy="652.9" r="3.5" fill="#B279A2" />
+<circle cx="500.3" cy="660.9" r="3.5" fill="#B279A2" />
+<circle cx="643.7" cy="660.9" r="3.5" fill="#B279A2" />
+<circle cx="787.0" cy="660.9" r="3.5" fill="#B279A2" />
+</svg>
