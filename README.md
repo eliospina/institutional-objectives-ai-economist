@@ -23,6 +23,13 @@ This is an early laboratory baseline, not a trained AI planner. The next step is
 to train a PPO government agent using the social-floor objective and compare the
 learned policy against the deterministic baselines.
 
+## Pre-Analysis Plan
+
+The current research design is specified before producing further figures or
+interpreting additional outputs:
+
+[Pre-analysis plan](docs/pre_analysis_plan.md)
+
 ## Current Status
 
 This repository is currently an experimental scaffold. The outputs are

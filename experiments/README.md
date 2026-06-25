@@ -1,5 +1,8 @@
 # Experiments
 
+Before interpreting additional results, see the project
+[pre-analysis plan](../docs/pre_analysis_plan.md).
+
 ## Minimum Social Floor Policy Comparison
 
 `social_floor_policy_comparison.py` is the main experiment for this fork.
