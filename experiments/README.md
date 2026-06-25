@@ -98,7 +98,7 @@ python experiments/generate_figures.py
 Output:
 
 ```text
-figures/social_floor_sensitivity.svg
+figures/social_floor_treatment_effects.svg
 ```
 
 ## Legacy Objective Weight Sweep

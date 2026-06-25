@@ -41,7 +41,7 @@ below plots treatment effects relative to the `no_tax` baseline. This makes the
 small tradeoff visible: floor-oriented policies modestly reduce shortfalls and
 raise the minimum coin level, but they also carry a small productivity cost.
 
-![Social floor sensitivity](figures/social_floor_sensitivity.svg)
+![Social floor treatment effects](figures/social_floor_treatment_effects.svg)
 
 | Social floor | Best floor-gap policy | Mean floor gap | Best productivity policy | Mean productivity |
 | --- | --- | ---: | --- | ---: |

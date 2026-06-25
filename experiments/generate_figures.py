@@ -186,7 +186,7 @@ def main() -> None:
     )
     parser.add_argument(
         "--out",
-        default="figures/social_floor_sensitivity.svg",
+        default="figures/social_floor_treatment_effects.svg",
     )
     args = parser.parse_args()
 
