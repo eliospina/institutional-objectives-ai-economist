@@ -85,22 +85,6 @@ This tests whether the baseline result is specific to one arbitrary floor or
 whether the policy ranking is stable as the minimum economic security threshold
 becomes more demanding.
 
-## Figures
-
-`generate_figures.py` creates a dependency-free SVG figure from the sensitivity
-summary. The figure plots treatment effects relative to `no_tax` because the
-absolute levels are close enough to make ordinary line charts visually flat:
-
-```bash
-python experiments/generate_figures.py
-```
-
-Output:
-
-```text
-figures/social_floor_treatment_effects.svg
-```
-
 ## Legacy Objective Weight Sweep
 
 `objective_weight_sweep.py` makes the AI Economist-style government objective

@@ -23,44 +23,27 @@ This is an early laboratory baseline, not a trained AI planner. The next step is
 to train a PPO government agent using the social-floor objective and compare the
 learned policy against the deterministic baselines.
 
-## Initial Sensitivity Result
+## Current Status
 
-The sensitivity experiment evaluates social floor thresholds of `50`, `100`,
-`150`, and `200` coins:
+This repository is currently an experimental scaffold. The outputs are
+deterministic baselines used to debug the research design, not substantive
+economic findings.
+
+The sensitivity script evaluates social floor thresholds of `50`, `100`, `150`,
+and `200` model coin units:
 
 ```bash
 python experiments/social_floor_sensitivity.py
 ```
 
-Across these thresholds, the `social_floor_feedback` rule provides the best
-floor security for floors `100`, `150`, and `200`, while `no_tax` preserves
-slightly higher productivity.
+The central next step is to record time-series trajectories with clear units:
 
-Because the absolute outcome levels are very close across policies, the figure
-below plots treatment effects relative to the `no_tax` baseline. This makes the
-small tradeoff visible: floor-oriented policies modestly reduce shortfalls and
-raise the minimum model money supply level, but they also carry a small
-productivity cost.
-
-![Social floor treatment effects](figures/social_floor_treatment_effects.svg)
-
-| Social floor | Best floor-gap policy | Mean floor gap | Best productivity policy | Mean productivity |
-| --- | --- | ---: | --- | ---: |
-| 50 | high_progressive_tax | 17.167 | no_tax | 377.278 |
-| 100 | social_floor_feedback | 45.389 | no_tax | 377.278 |
-| 150 | social_floor_feedback | 76.194 | no_tax | 377.278 |
-| 200 | social_floor_feedback | 108.139 | no_tax | 377.278 |
-
-Interpretation: the deterministic feedback rule modestly improves the minimum
-social floor metric, but the effect is not large. The result should be treated
-as a falsifiable baseline for future learned-planner experiments, not as a
-policy conclusion.
-
-To regenerate the figure from the sensitivity summary:
-
-```bash
-python experiments/generate_figures.py
+```text
+X = simulation timestep or tax period
+Y = floor_gap in model coin units
 ```
+
+Only after that should the project present figures as evidence.
 
 ---
 
