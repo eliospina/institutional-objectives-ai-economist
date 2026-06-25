@@ -39,7 +39,8 @@ slightly higher productivity.
 Because the absolute outcome levels are very close across policies, the figure
 below plots treatment effects relative to the `no_tax` baseline. This makes the
 small tradeoff visible: floor-oriented policies modestly reduce shortfalls and
-raise the minimum coin level, but they also carry a small productivity cost.
+raise the minimum model money supply level, but they also carry a small
+productivity cost.
 
 ![Social floor treatment effects](figures/social_floor_treatment_effects.svg)
 

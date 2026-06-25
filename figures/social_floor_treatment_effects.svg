@@ -15,7 +15,7 @@
 </style>
 <rect width="1120" height="860" fill="#ffffff" />
 <text x="36" y="42" class="title">Minimum Social Floor: Treatment Effects vs No Tax</text>
-<text x="36" y="68" class="subtitle">The absolute outcomes are nearly flat, so this figure plots changes relative to the no-tax baseline. Positive floor-gap reduction and minimum-coin gain are better; productivity deltas are the cost.</text>
+<text x="36" y="68" class="subtitle">The absolute outcomes are nearly flat, so this figure plots changes relative to the no-tax baseline. Positive floor-gap reduction and minimum money supply gain are better; productivity deltas are the cost.</text>
 <rect x="36" y="94" width="14" height="14" fill="#F58518" rx="2" />
 <text x="58" y="106" class="legend">Low progressive</text>
 <rect x="241" y="94" width="14" height="14" fill="#54A24B" rx="2" />
@@ -32,28 +32,28 @@
 <text x="104.0" y="427" class="tick-label" text-anchor="middle">0%</text>
 <line x1="526.0" y1="407" x2="526.0" y2="412" class="tick" />
 <text x="526.0" y="427" class="tick-label" text-anchor="middle">5%</text>
-<text x="44" y="225.0" class="floor-label">floor 50</text>
+<text x="44" y="225.0" class="floor-label">threshold 50</text>
 <rect x="104.0" y="207.0" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="109.0" y="218.0" class="value-label" text-anchor="start">0.00%</text>
 <rect x="104.0" y="226.0" width="415.5" height="14" fill="#54A24B" rx="2" />
 <text x="524.5" y="237.0" class="value-label" text-anchor="start">4.92%</text>
 <rect x="104.0" y="245.0" width="415.5" height="14" fill="#B279A2" rx="2" />
 <text x="524.5" y="256.0" class="value-label" text-anchor="start">4.92%</text>
-<text x="44" y="278.5" class="floor-label">floor 100</text>
+<text x="44" y="278.5" class="floor-label">threshold 100</text>
 <rect x="104.0" y="260.5" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="109.0" y="271.5" class="value-label" text-anchor="start">0.00%</text>
 <rect x="104.0" y="279.5" width="171.4" height="14" fill="#54A24B" rx="2" />
 <text x="280.4" y="290.5" class="value-label" text-anchor="start">2.03%</text>
 <rect x="104.0" y="298.5" width="201.7" height="14" fill="#B279A2" rx="2" />
 <text x="310.7" y="309.5" class="value-label" text-anchor="start">2.39%</text>
-<text x="44" y="332.0" class="floor-label">floor 150</text>
+<text x="44" y="332.0" class="floor-label">threshold 150</text>
 <rect x="104.0" y="314.0" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="109.0" y="325.0" class="value-label" text-anchor="start">0.00%</text>
 <rect x="104.0" y="333.0" width="121.0" height="14" fill="#54A24B" rx="2" />
 <text x="230.0" y="344.0" class="value-label" text-anchor="start">1.43%</text>
 <rect x="104.0" y="352.0" width="145.2" height="14" fill="#B279A2" rx="2" />
 <text x="254.2" y="363.0" class="value-label" text-anchor="start">1.72%</text>
-<text x="44" y="385.5" class="floor-label">floor 200</text>
+<text x="44" y="385.5" class="floor-label">threshold 200</text>
 <rect x="104.0" y="367.5" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="109.0" y="378.5" class="value-label" text-anchor="start">0.00%</text>
 <rect x="104.0" y="386.5" width="85.7" height="14" fill="#54A24B" rx="2" />
@@ -70,36 +70,36 @@
 <text x="1055.0" y="427" class="tick-label" text-anchor="middle">0%</text>
 <line x1="1055.0" y1="407" x2="1055.0" y2="412" class="tick" />
 <text x="1055.0" y="427" class="tick-label" text-anchor="middle">0%</text>
-<text x="593" y="225.0" class="floor-label">floor 50</text>
+<text x="593" y="225.0" class="floor-label">threshold 50</text>
 <rect x="733.7" y="207.0" width="321.3" height="14" fill="#F58518" rx="2" />
 <text x="728.7" y="218.0" class="value-label" text-anchor="end">-0.28%</text>
 <rect x="767.5" y="226.0" width="287.5" height="14" fill="#54A24B" rx="2" />
 <text x="762.5" y="237.0" class="value-label" text-anchor="end">-0.25%</text>
 <rect x="750.6" y="245.0" width="304.4" height="14" fill="#B279A2" rx="2" />
 <text x="745.6" y="256.0" class="value-label" text-anchor="end">-0.27%</text>
-<text x="593" y="278.5" class="floor-label">floor 100</text>
+<text x="593" y="278.5" class="floor-label">threshold 100</text>
 <rect x="733.7" y="260.5" width="321.3" height="14" fill="#F58518" rx="2" />
 <text x="728.7" y="271.5" class="value-label" text-anchor="end">-0.28%</text>
 <rect x="767.5" y="279.5" width="287.5" height="14" fill="#54A24B" rx="2" />
 <text x="762.5" y="290.5" class="value-label" text-anchor="end">-0.25%</text>
 <rect x="733.7" y="298.5" width="321.3" height="14" fill="#B279A2" rx="2" />
 <text x="728.7" y="309.5" class="value-label" text-anchor="end">-0.28%</text>
-<text x="593" y="332.0" class="floor-label">floor 150</text>
+<text x="593" y="332.0" class="floor-label">threshold 150</text>
 <rect x="733.7" y="314.0" width="321.3" height="14" fill="#F58518" rx="2" />
 <text x="728.7" y="325.0" class="value-label" text-anchor="end">-0.28%</text>
 <rect x="767.5" y="333.0" width="287.5" height="14" fill="#54A24B" rx="2" />
 <text x="762.5" y="344.0" class="value-label" text-anchor="end">-0.25%</text>
 <rect x="733.7" y="352.0" width="321.3" height="14" fill="#B279A2" rx="2" />
 <text x="728.7" y="363.0" class="value-label" text-anchor="end">-0.28%</text>
-<text x="593" y="385.5" class="floor-label">floor 200</text>
+<text x="593" y="385.5" class="floor-label">threshold 200</text>
 <rect x="733.7" y="367.5" width="321.3" height="14" fill="#F58518" rx="2" />
 <text x="728.7" y="378.5" class="value-label" text-anchor="end">-0.28%</text>
 <rect x="767.5" y="386.5" width="287.5" height="14" fill="#54A24B" rx="2" />
 <text x="762.5" y="397.5" class="value-label" text-anchor="end">-0.25%</text>
 <rect x="733.7" y="405.5" width="321.3" height="14" fill="#B279A2" rx="2" />
 <text x="728.7" y="416.5" class="value-label" text-anchor="end">-0.28%</text>
-<text x="300" y="513" class="panel-title">Minimum-Coin Gain</text>
-<text x="300" y="533" class="panel-subtitle">Additional minimum coins vs no tax</text>
+<text x="300" y="513" class="panel-title">Minimum Money Supply Gain</text>
+<text x="300" y="533" class="panel-subtitle">Additional minimum model money supply vs no tax</text>
 <line x1="368" y1="767" x2="790" y2="767" class="axis" />
 <line x1="368.0" y1="553" x2="368.0" y2="767" class="zero" />
 <line x1="368.0" y1="767" x2="368.0" y2="772" class="tick" />
@@ -108,28 +108,28 @@
 <text x="368.0" y="787" class="tick-label" text-anchor="middle">0</text>
 <line x1="790.0" y1="767" x2="790.0" y2="772" class="tick" />
 <text x="790.0" y="787" class="tick-label" text-anchor="middle">2.5</text>
-<text x="308" y="585.0" class="floor-label">floor 50</text>
+<text x="308" y="585.0" class="floor-label">threshold 50</text>
 <rect x="368.0" y="567.0" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="373.0" y="578.0" class="value-label" text-anchor="start">0.00</text>
 <rect x="368.0" y="586.0" width="281.3" height="14" fill="#54A24B" rx="2" />
 <text x="654.3" y="597.0" class="value-label" text-anchor="start">1.67</text>
 <rect x="368.0" y="605.0" width="281.3" height="14" fill="#B279A2" rx="2" />
 <text x="654.3" y="616.0" class="value-label" text-anchor="start">1.67</text>
-<text x="308" y="638.5" class="floor-label">floor 100</text>
+<text x="308" y="638.5" class="floor-label">threshold 100</text>
 <rect x="368.0" y="620.5" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="373.0" y="631.5" class="value-label" text-anchor="start">0.00</text>
 <rect x="368.0" y="639.5" width="281.3" height="14" fill="#54A24B" rx="2" />
 <text x="654.3" y="650.5" class="value-label" text-anchor="start">1.67</text>
 <rect x="368.0" y="658.5" width="337.6" height="14" fill="#B279A2" rx="2" />
 <text x="710.6" y="669.5" class="value-label" text-anchor="start">2.00</text>
-<text x="308" y="692.0" class="floor-label">floor 150</text>
+<text x="308" y="692.0" class="floor-label">threshold 150</text>
 <rect x="368.0" y="674.0" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="373.0" y="685.0" class="value-label" text-anchor="start">0.00</text>
 <rect x="368.0" y="693.0" width="281.3" height="14" fill="#54A24B" rx="2" />
 <text x="654.3" y="704.0" class="value-label" text-anchor="start">1.67</text>
 <rect x="368.0" y="712.0" width="337.6" height="14" fill="#B279A2" rx="2" />
 <text x="710.6" y="723.0" class="value-label" text-anchor="start">2.00</text>
-<text x="308" y="745.5" class="floor-label">floor 200</text>
+<text x="308" y="745.5" class="floor-label">threshold 200</text>
 <rect x="368.0" y="727.5" width="1.0" height="14" fill="#F58518" rx="2" />
 <text x="373.0" y="738.5" class="value-label" text-anchor="start">0.00</text>
 <rect x="368.0" y="746.5" width="281.3" height="14" fill="#54A24B" rx="2" />

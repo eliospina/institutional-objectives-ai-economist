@@ -110,7 +110,7 @@ def bar_panel(
     for floor_index, floor in enumerate(floors):
         group_y = top + floor_index * group_height + 14
         parts.append(
-            f'<text x="{x + 8}" y="{group_y + 18}" class="floor-label">floor {floor:g}</text>'
+            f'<text x="{x + 8}" y="{group_y + 18}" class="floor-label">threshold {floor:g}</text>'
         )
         floor_rows = [
             row for row in deltas if float(row["social_floor"]) == floor
@@ -168,11 +168,11 @@ def build_svg(rows: list[dict[str, str]]) -> str:
 </style>
 <rect width="1120" height="860" fill="#ffffff" />
 <text x="36" y="42" class="title">Minimum Social Floor: Treatment Effects vs No Tax</text>
-<text x="36" y="68" class="subtitle">The absolute outcomes are nearly flat, so this figure plots changes relative to the no-tax baseline. Positive floor-gap reduction and minimum-coin gain are better; productivity deltas are the cost.</text>
+<text x="36" y="68" class="subtitle">The absolute outcomes are nearly flat, so this figure plots changes relative to the no-tax baseline. Positive floor-gap reduction and minimum money supply gain are better; productivity deltas are the cost.</text>
 {legend_svg(36, 104)}
 {bar_panel(deltas, "floor_gap_reduction_pct", "Floor-Gap Reduction", "Percent reduction in mean shortfall vs no tax", (0, 5), "%", 36, 135, 520, 310)}
 {bar_panel(deltas, "productivity_delta_pct", "Productivity Change", "Percent change in productivity vs no tax", (-0.35, 0), "%", 585, 135, 500, 310)}
-{bar_panel(deltas, "minimum_coin_gain", "Minimum-Coin Gain", "Additional minimum coins vs no tax", (0, 2.5), "", 300, 495, 520, 310)}
+{bar_panel(deltas, "minimum_coin_gain", "Minimum Money Supply Gain", "Additional minimum model money supply vs no tax", (0, 2.5), "", 300, 495, 520, 310)}
 <text x="36" y="832" class="note">Reading: the social-floor feedback rule has small productivity costs, but it improves floor security most clearly when the target floor is 100 or higher.</text>
 </svg>
 '''
