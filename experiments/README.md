@@ -59,6 +59,32 @@ discover the same policy.
 The next research step is to train a PPO planner under the social-floor utility
 function and compare learned policies against the deterministic baselines.
 
+## Social Floor Sensitivity
+
+`social_floor_sensitivity.py` repeats the policy comparison across several
+minimum social floor thresholds:
+
+```bash
+python experiments/social_floor_sensitivity.py
+```
+
+Outputs:
+
+```text
+results/social_floor_sensitivity.csv
+results/social_floor_sensitivity_summary.csv
+```
+
+The default thresholds are:
+
+```text
+50, 100, 150, 200
+```
+
+This tests whether the baseline result is specific to one arbitrary floor or
+whether the policy ranking is stable as the minimum economic security threshold
+becomes more demanding.
+
 ## Legacy Objective Weight Sweep
 
 `objective_weight_sweep.py` makes the AI Economist-style government objective

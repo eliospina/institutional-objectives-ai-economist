@@ -23,6 +23,31 @@ This is an early laboratory baseline, not a trained AI planner. The next step is
 to train a PPO government agent using the social-floor objective and compare the
 learned policy against the deterministic baselines.
 
+## Initial Sensitivity Result
+
+The sensitivity experiment evaluates social floor thresholds of `50`, `100`,
+`150`, and `200` coins:
+
+```bash
+python experiments/social_floor_sensitivity.py
+```
+
+Across these thresholds, the `social_floor_feedback` rule provides the best
+floor security for floors `100`, `150`, and `200`, while `no_tax` preserves
+slightly higher productivity.
+
+| Social floor | Best floor-gap policy | Mean floor gap | Best productivity policy | Mean productivity |
+| --- | --- | ---: | --- | ---: |
+| 50 | high_progressive_tax | 17.167 | no_tax | 377.278 |
+| 100 | social_floor_feedback | 45.389 | no_tax | 377.278 |
+| 150 | social_floor_feedback | 76.194 | no_tax | 377.278 |
+| 200 | social_floor_feedback | 108.139 | no_tax | 377.278 |
+
+Interpretation: the deterministic feedback rule modestly improves the minimum
+social floor metric, but the effect is not large. The result should be treated
+as a falsifiable baseline for future learned-planner experiments, not as a
+policy conclusion.
+
 ---
 
 # EconoJax: A Fast & Scalable Economic Simulation in JAX
