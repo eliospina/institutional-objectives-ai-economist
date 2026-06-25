@@ -88,7 +88,8 @@ becomes more demanding.
 ## Figures
 
 `generate_figures.py` creates a dependency-free SVG figure from the sensitivity
-summary:
+summary. The figure plots treatment effects relative to `no_tax` because the
+absolute levels are close enough to make ordinary line charts visually flat:
 
 ```bash
 python experiments/generate_figures.py

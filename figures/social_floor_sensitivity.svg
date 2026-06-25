@@ -1,150 +1,140 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760" role="img" aria-label="Social floor sensitivity results">
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="860" viewBox="0 0 1120 860" role="img" aria-label="Social floor treatment effects relative to no tax">
 <style>
-  .title { font: 700 24px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #18202b; }
+  .title { font: 700 25px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #18202b; }
   .subtitle { font: 400 14px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
   .panel-title { font: 700 16px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #18202b; }
-  .axis-label { font: 600 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
-  .tick-label { font: 11px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
+  .panel-subtitle { font: 400 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
   .legend { font: 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #253043; }
+  .floor-label { font: 700 12px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #39475a; }
+  .tick-label { font: 11px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #526070; }
+  .value-label { font: 600 10px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #253043; }
   .axis { stroke: #39475a; stroke-width: 1; }
   .tick { stroke: #39475a; stroke-width: 1; }
-  .grid { stroke: #d9dee7; stroke-width: 1; }
+  .zero { stroke: #18202b; stroke-width: 1.25; }
+  .note { font: 600 13px system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #18202b; }
 </style>
-<rect width="1100" height="760" fill="#ffffff" />
-<text x="36" y="42" class="title">Minimum Social Floor Sensitivity</text>
-<text x="36" y="68" class="subtitle">Deterministic tax-rule baselines across social-floor thresholds. Lower floor gap is better; higher floor security and productivity are better.</text>
-<line x1="36" y1="106" x2="60" y2="106" stroke="#4C78A8" stroke-width="3" />
-<text x="68" y="110" class="legend">No tax</text>
-<line x1="216" y1="106" x2="240" y2="106" stroke="#F58518" stroke-width="3" />
-<text x="248" y="110" class="legend">Low progressive</text>
-<line x1="396" y1="106" x2="420" y2="106" stroke="#54A24B" stroke-width="3" />
-<text x="428" y="110" class="legend">High progressive</text>
-<line x1="576" y1="106" x2="600" y2="106" stroke="#B279A2" stroke-width="3" />
-<text x="608" y="110" class="legend">Social-floor feedback</text>
-<text x="36" y="163" class="panel-title">Floor Gap</text>
-<line x1="88" y1="363" x2="518" y2="363" class="axis" />
-<line x1="88" y1="187" x2="88" y2="363" class="axis" />
-<text x="88" y="397" class="axis-label">Social floor</text>
-<text x="38" y="175" class="axis-label">Mean shortfall</text>
-<line x1="88.0" y1="363" x2="88.0" y2="368" class="tick" />
-<text x="88.0" y="383" class="tick-label" text-anchor="middle">50</text>
-<line x1="231.3" y1="363" x2="231.3" y2="368" class="tick" />
-<text x="231.3" y="383" class="tick-label" text-anchor="middle">100</text>
-<line x1="374.7" y1="363" x2="374.7" y2="368" class="tick" />
-<text x="374.7" y="383" class="tick-label" text-anchor="middle">150</text>
-<line x1="518.0" y1="363" x2="518.0" y2="368" class="tick" />
-<text x="518.0" y="383" class="tick-label" text-anchor="middle">200</text>
-<line x1="83" y1="363.0" x2="88" y2="363.0" class="tick" />
-<line x1="88" y1="363.0" x2="518" y2="363.0" class="grid" />
-<text x="80" y="367.0" class="tick-label" text-anchor="end">9.8</text>
-<line x1="83" y1="275.0" x2="88" y2="275.0" class="tick" />
-<line x1="88" y1="275.0" x2="518" y2="275.0" class="grid" />
-<text x="80" y="279.0" class="tick-label" text-anchor="end">63.3</text>
-<line x1="83" y1="187.0" x2="88" y2="187.0" class="tick" />
-<line x1="88" y1="187.0" x2="518" y2="187.0" class="grid" />
-<text x="80" y="191.0" class="tick-label" text-anchor="end">116.9</text>
-<path d="M 88.0 350.9 L 231.3 304.2 L 374.7 253.5 L 518.0 201.0" fill="none" stroke="#54A24B" stroke-width="2.5" />
-<circle cx="88.0" cy="350.9" r="3.5" fill="#54A24B" />
-<circle cx="231.3" cy="304.2" r="3.5" fill="#54A24B" />
-<circle cx="374.7" cy="253.5" r="3.5" fill="#54A24B" />
-<circle cx="518.0" cy="201.0" r="3.5" fill="#54A24B" />
-<path d="M 88.0 349.4 L 231.3 302.6 L 374.7 251.6 L 518.0 199.1" fill="none" stroke="#F58518" stroke-width="2.5" />
-<circle cx="88.0" cy="349.4" r="3.5" fill="#F58518" />
-<circle cx="231.3" cy="302.6" r="3.5" fill="#F58518" />
-<circle cx="374.7" cy="251.6" r="3.5" fill="#F58518" />
-<circle cx="518.0" cy="199.1" r="3.5" fill="#F58518" />
-<path d="M 88.0 349.4 L 231.3 302.6 L 374.7 251.6 L 518.0 199.1" fill="none" stroke="#4C78A8" stroke-width="2.5" />
-<circle cx="88.0" cy="349.4" r="3.5" fill="#4C78A8" />
-<circle cx="231.3" cy="302.6" r="3.5" fill="#4C78A8" />
-<circle cx="374.7" cy="251.6" r="3.5" fill="#4C78A8" />
-<circle cx="518.0" cy="199.1" r="3.5" fill="#4C78A8" />
-<path d="M 88.0 350.9 L 231.3 304.5 L 374.7 253.8 L 518.0 201.3" fill="none" stroke="#B279A2" stroke-width="2.5" />
-<circle cx="88.0" cy="350.9" r="3.5" fill="#B279A2" />
-<circle cx="231.3" cy="304.5" r="3.5" fill="#B279A2" />
-<circle cx="374.7" cy="253.8" r="3.5" fill="#B279A2" />
-<circle cx="518.0" cy="201.3" r="3.5" fill="#B279A2" />
-<text x="575" y="163" class="panel-title">Floor Security</text>
-<line x1="627" y1="363" x2="1047" y2="363" class="axis" />
-<line x1="627" y1="187" x2="627" y2="363" class="axis" />
-<text x="627" y="397" class="axis-label">Social floor</text>
-<text x="577" y="175" class="axis-label">Security score</text>
-<line x1="627.0" y1="363" x2="627.0" y2="368" class="tick" />
-<text x="627.0" y="383" class="tick-label" text-anchor="middle">50</text>
-<line x1="767.0" y1="363" x2="767.0" y2="368" class="tick" />
-<text x="767.0" y="383" class="tick-label" text-anchor="middle">100</text>
-<line x1="907.0" y1="363" x2="907.0" y2="368" class="tick" />
-<text x="907.0" y="383" class="tick-label" text-anchor="middle">150</text>
-<line x1="1047.0" y1="363" x2="1047.0" y2="368" class="tick" />
-<text x="1047.0" y="383" class="tick-label" text-anchor="middle">200</text>
-<line x1="622" y1="363.0" x2="627" y2="363.0" class="tick" />
-<line x1="627" y1="363.0" x2="1047" y2="363.0" class="grid" />
-<text x="619" y="367.0" class="tick-label" text-anchor="end">0.4</text>
-<line x1="622" y1="275.0" x2="627" y2="275.0" class="tick" />
-<line x1="627" y1="275.0" x2="1047" y2="275.0" class="grid" />
-<text x="619" y="279.0" class="tick-label" text-anchor="end">0.6</text>
-<line x1="622" y1="187.0" x2="627" y2="187.0" class="tick" />
-<line x1="627" y1="187.0" x2="1047" y2="187.0" class="grid" />
-<text x="619" y="191.0" class="tick-label" text-anchor="end">0.7</text>
-<path d="M 627.0 199.1 L 767.0 282.6 L 907.0 322.7 L 1047.0 346.7" fill="none" stroke="#54A24B" stroke-width="2.5" />
-<circle cx="627.0" cy="199.1" r="3.5" fill="#54A24B" />
-<circle cx="767.0" cy="282.6" r="3.5" fill="#54A24B" />
-<circle cx="907.0" cy="322.7" r="3.5" fill="#54A24B" />
-<circle cx="1047.0" cy="346.7" r="3.5" fill="#54A24B" />
-<path d="M 627.0 212.4 L 767.0 289.6 L 907.0 328.2 L 1047.0 350.9" fill="none" stroke="#F58518" stroke-width="2.5" />
-<circle cx="627.0" cy="212.4" r="3.5" fill="#F58518" />
-<circle cx="767.0" cy="289.6" r="3.5" fill="#F58518" />
-<circle cx="907.0" cy="328.2" r="3.5" fill="#F58518" />
-<circle cx="1047.0" cy="350.9" r="3.5" fill="#F58518" />
-<path d="M 627.0 212.4 L 767.0 289.6 L 907.0 328.2 L 1047.0 350.9" fill="none" stroke="#4C78A8" stroke-width="2.5" />
-<circle cx="627.0" cy="212.4" r="3.5" fill="#4C78A8" />
-<circle cx="767.0" cy="289.6" r="3.5" fill="#4C78A8" />
-<circle cx="907.0" cy="328.2" r="3.5" fill="#4C78A8" />
-<circle cx="1047.0" cy="350.9" r="3.5" fill="#4C78A8" />
-<path d="M 627.0 199.1 L 767.0 281.4 L 907.0 321.6 L 1047.0 345.9" fill="none" stroke="#B279A2" stroke-width="2.5" />
-<circle cx="627.0" cy="199.1" r="3.5" fill="#B279A2" />
-<circle cx="767.0" cy="281.4" r="3.5" fill="#B279A2" />
-<circle cx="907.0" cy="321.6" r="3.5" fill="#B279A2" />
-<circle cx="1047.0" cy="345.9" r="3.5" fill="#B279A2" />
-<text x="305" y="473" class="panel-title">Productivity</text>
-<line x1="357" y1="673" x2="787" y2="673" class="axis" />
-<line x1="357" y1="497" x2="357" y2="673" class="axis" />
-<text x="357" y="707" class="axis-label">Social floor</text>
-<text x="307" y="485" class="axis-label">Mean coin</text>
-<line x1="357.0" y1="673" x2="357.0" y2="678" class="tick" />
-<text x="357.0" y="693" class="tick-label" text-anchor="middle">50</text>
-<line x1="500.3" y1="673" x2="500.3" y2="678" class="tick" />
-<text x="500.3" y="693" class="tick-label" text-anchor="middle">100</text>
-<line x1="643.7" y1="673" x2="643.7" y2="678" class="tick" />
-<text x="643.7" y="693" class="tick-label" text-anchor="middle">150</text>
-<line x1="787.0" y1="673" x2="787.0" y2="678" class="tick" />
-<text x="787.0" y="693" class="tick-label" text-anchor="middle">200</text>
-<line x1="352" y1="673.0" x2="357" y2="673.0" class="tick" />
-<line x1="357" y1="673.0" x2="787" y2="673.0" class="grid" />
-<text x="349" y="677.0" class="tick-label" text-anchor="end">376.1</text>
-<line x1="352" y1="585.0" x2="357" y2="585.0" class="tick" />
-<line x1="357" y1="585.0" x2="787" y2="585.0" class="grid" />
-<text x="349" y="589.0" class="tick-label" text-anchor="end">376.7</text>
-<line x1="352" y1="497.0" x2="357" y2="497.0" class="tick" />
-<line x1="357" y1="497.0" x2="787" y2="497.0" class="grid" />
-<text x="349" y="501.0" class="tick-label" text-anchor="end">377.4</text>
-<path d="M 357.0 644.9 L 500.3 644.9 L 643.7 644.9 L 787.0 644.9" fill="none" stroke="#54A24B" stroke-width="2.5" />
-<circle cx="357.0" cy="644.9" r="3.5" fill="#54A24B" />
-<circle cx="500.3" cy="644.9" r="3.5" fill="#54A24B" />
-<circle cx="643.7" cy="644.9" r="3.5" fill="#54A24B" />
-<circle cx="787.0" cy="644.9" r="3.5" fill="#54A24B" />
-<path d="M 357.0 660.9 L 500.3 660.9 L 643.7 660.9 L 787.0 660.9" fill="none" stroke="#F58518" stroke-width="2.5" />
-<circle cx="357.0" cy="660.9" r="3.5" fill="#F58518" />
-<circle cx="500.3" cy="660.9" r="3.5" fill="#F58518" />
-<circle cx="643.7" cy="660.9" r="3.5" fill="#F58518" />
-<circle cx="787.0" cy="660.9" r="3.5" fill="#F58518" />
-<path d="M 357.0 509.1 L 500.3 509.1 L 643.7 509.1 L 787.0 509.1" fill="none" stroke="#4C78A8" stroke-width="2.5" />
-<circle cx="357.0" cy="509.1" r="3.5" fill="#4C78A8" />
-<circle cx="500.3" cy="509.1" r="3.5" fill="#4C78A8" />
-<circle cx="643.7" cy="509.1" r="3.5" fill="#4C78A8" />
-<circle cx="787.0" cy="509.1" r="3.5" fill="#4C78A8" />
-<path d="M 357.0 652.9 L 500.3 660.9 L 643.7 660.9 L 787.0 660.9" fill="none" stroke="#B279A2" stroke-width="2.5" />
-<circle cx="357.0" cy="652.9" r="3.5" fill="#B279A2" />
-<circle cx="500.3" cy="660.9" r="3.5" fill="#B279A2" />
-<circle cx="643.7" cy="660.9" r="3.5" fill="#B279A2" />
-<circle cx="787.0" cy="660.9" r="3.5" fill="#B279A2" />
+<rect width="1120" height="860" fill="#ffffff" />
+<text x="36" y="42" class="title">Minimum Social Floor: Treatment Effects vs No Tax</text>
+<text x="36" y="68" class="subtitle">The absolute outcomes are nearly flat, so this figure plots changes relative to the no-tax baseline. Positive floor-gap reduction and minimum-coin gain are better; productivity deltas are the cost.</text>
+<rect x="36" y="94" width="14" height="14" fill="#F58518" rx="2" />
+<text x="58" y="106" class="legend">Low progressive</text>
+<rect x="241" y="94" width="14" height="14" fill="#54A24B" rx="2" />
+<text x="263" y="106" class="legend">High progressive</text>
+<rect x="446" y="94" width="14" height="14" fill="#B279A2" rx="2" />
+<text x="468" y="106" class="legend">Social-floor feedback</text>
+<text x="36" y="153" class="panel-title">Floor-Gap Reduction</text>
+<text x="36" y="173" class="panel-subtitle">Percent reduction in mean shortfall vs no tax</text>
+<line x1="104" y1="407" x2="526" y2="407" class="axis" />
+<line x1="104.0" y1="193" x2="104.0" y2="407" class="zero" />
+<line x1="104.0" y1="407" x2="104.0" y2="412" class="tick" />
+<text x="104.0" y="427" class="tick-label" text-anchor="middle">0%</text>
+<line x1="104.0" y1="407" x2="104.0" y2="412" class="tick" />
+<text x="104.0" y="427" class="tick-label" text-anchor="middle">0%</text>
+<line x1="526.0" y1="407" x2="526.0" y2="412" class="tick" />
+<text x="526.0" y="427" class="tick-label" text-anchor="middle">5%</text>
+<text x="44" y="225.0" class="floor-label">floor 50</text>
+<rect x="104.0" y="207.0" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="109.0" y="218.0" class="value-label" text-anchor="start">0.00%</text>
+<rect x="104.0" y="226.0" width="415.5" height="14" fill="#54A24B" rx="2" />
+<text x="524.5" y="237.0" class="value-label" text-anchor="start">4.92%</text>
+<rect x="104.0" y="245.0" width="415.5" height="14" fill="#B279A2" rx="2" />
+<text x="524.5" y="256.0" class="value-label" text-anchor="start">4.92%</text>
+<text x="44" y="278.5" class="floor-label">floor 100</text>
+<rect x="104.0" y="260.5" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="109.0" y="271.5" class="value-label" text-anchor="start">0.00%</text>
+<rect x="104.0" y="279.5" width="171.4" height="14" fill="#54A24B" rx="2" />
+<text x="280.4" y="290.5" class="value-label" text-anchor="start">2.03%</text>
+<rect x="104.0" y="298.5" width="201.7" height="14" fill="#B279A2" rx="2" />
+<text x="310.7" y="309.5" class="value-label" text-anchor="start">2.39%</text>
+<text x="44" y="332.0" class="floor-label">floor 150</text>
+<rect x="104.0" y="314.0" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="109.0" y="325.0" class="value-label" text-anchor="start">0.00%</text>
+<rect x="104.0" y="333.0" width="121.0" height="14" fill="#54A24B" rx="2" />
+<text x="230.0" y="344.0" class="value-label" text-anchor="start">1.43%</text>
+<rect x="104.0" y="352.0" width="145.2" height="14" fill="#B279A2" rx="2" />
+<text x="254.2" y="363.0" class="value-label" text-anchor="start">1.72%</text>
+<text x="44" y="385.5" class="floor-label">floor 200</text>
+<rect x="104.0" y="367.5" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="109.0" y="378.5" class="value-label" text-anchor="start">0.00%</text>
+<rect x="104.0" y="386.5" width="85.7" height="14" fill="#54A24B" rx="2" />
+<text x="194.7" y="397.5" class="value-label" text-anchor="start">1.01%</text>
+<rect x="104.0" y="405.5" width="102.8" height="14" fill="#B279A2" rx="2" />
+<text x="211.8" y="416.5" class="value-label" text-anchor="start">1.22%</text>
+<text x="585" y="153" class="panel-title">Productivity Change</text>
+<text x="585" y="173" class="panel-subtitle">Percent change in productivity vs no tax</text>
+<line x1="653" y1="407" x2="1055" y2="407" class="axis" />
+<line x1="1055.0" y1="193" x2="1055.0" y2="407" class="zero" />
+<line x1="653.0" y1="407" x2="653.0" y2="412" class="tick" />
+<text x="653.0" y="427" class="tick-label" text-anchor="middle">-0.35%</text>
+<line x1="1055.0" y1="407" x2="1055.0" y2="412" class="tick" />
+<text x="1055.0" y="427" class="tick-label" text-anchor="middle">0%</text>
+<line x1="1055.0" y1="407" x2="1055.0" y2="412" class="tick" />
+<text x="1055.0" y="427" class="tick-label" text-anchor="middle">0%</text>
+<text x="593" y="225.0" class="floor-label">floor 50</text>
+<rect x="733.7" y="207.0" width="321.3" height="14" fill="#F58518" rx="2" />
+<text x="728.7" y="218.0" class="value-label" text-anchor="end">-0.28%</text>
+<rect x="767.5" y="226.0" width="287.5" height="14" fill="#54A24B" rx="2" />
+<text x="762.5" y="237.0" class="value-label" text-anchor="end">-0.25%</text>
+<rect x="750.6" y="245.0" width="304.4" height="14" fill="#B279A2" rx="2" />
+<text x="745.6" y="256.0" class="value-label" text-anchor="end">-0.27%</text>
+<text x="593" y="278.5" class="floor-label">floor 100</text>
+<rect x="733.7" y="260.5" width="321.3" height="14" fill="#F58518" rx="2" />
+<text x="728.7" y="271.5" class="value-label" text-anchor="end">-0.28%</text>
+<rect x="767.5" y="279.5" width="287.5" height="14" fill="#54A24B" rx="2" />
+<text x="762.5" y="290.5" class="value-label" text-anchor="end">-0.25%</text>
+<rect x="733.7" y="298.5" width="321.3" height="14" fill="#B279A2" rx="2" />
+<text x="728.7" y="309.5" class="value-label" text-anchor="end">-0.28%</text>
+<text x="593" y="332.0" class="floor-label">floor 150</text>
+<rect x="733.7" y="314.0" width="321.3" height="14" fill="#F58518" rx="2" />
+<text x="728.7" y="325.0" class="value-label" text-anchor="end">-0.28%</text>
+<rect x="767.5" y="333.0" width="287.5" height="14" fill="#54A24B" rx="2" />
+<text x="762.5" y="344.0" class="value-label" text-anchor="end">-0.25%</text>
+<rect x="733.7" y="352.0" width="321.3" height="14" fill="#B279A2" rx="2" />
+<text x="728.7" y="363.0" class="value-label" text-anchor="end">-0.28%</text>
+<text x="593" y="385.5" class="floor-label">floor 200</text>
+<rect x="733.7" y="367.5" width="321.3" height="14" fill="#F58518" rx="2" />
+<text x="728.7" y="378.5" class="value-label" text-anchor="end">-0.28%</text>
+<rect x="767.5" y="386.5" width="287.5" height="14" fill="#54A24B" rx="2" />
+<text x="762.5" y="397.5" class="value-label" text-anchor="end">-0.25%</text>
+<rect x="733.7" y="405.5" width="321.3" height="14" fill="#B279A2" rx="2" />
+<text x="728.7" y="416.5" class="value-label" text-anchor="end">-0.28%</text>
+<text x="300" y="513" class="panel-title">Minimum-Coin Gain</text>
+<text x="300" y="533" class="panel-subtitle">Additional minimum coins vs no tax</text>
+<line x1="368" y1="767" x2="790" y2="767" class="axis" />
+<line x1="368.0" y1="553" x2="368.0" y2="767" class="zero" />
+<line x1="368.0" y1="767" x2="368.0" y2="772" class="tick" />
+<text x="368.0" y="787" class="tick-label" text-anchor="middle">0</text>
+<line x1="368.0" y1="767" x2="368.0" y2="772" class="tick" />
+<text x="368.0" y="787" class="tick-label" text-anchor="middle">0</text>
+<line x1="790.0" y1="767" x2="790.0" y2="772" class="tick" />
+<text x="790.0" y="787" class="tick-label" text-anchor="middle">2.5</text>
+<text x="308" y="585.0" class="floor-label">floor 50</text>
+<rect x="368.0" y="567.0" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="373.0" y="578.0" class="value-label" text-anchor="start">0.00</text>
+<rect x="368.0" y="586.0" width="281.3" height="14" fill="#54A24B" rx="2" />
+<text x="654.3" y="597.0" class="value-label" text-anchor="start">1.67</text>
+<rect x="368.0" y="605.0" width="281.3" height="14" fill="#B279A2" rx="2" />
+<text x="654.3" y="616.0" class="value-label" text-anchor="start">1.67</text>
+<text x="308" y="638.5" class="floor-label">floor 100</text>
+<rect x="368.0" y="620.5" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="373.0" y="631.5" class="value-label" text-anchor="start">0.00</text>
+<rect x="368.0" y="639.5" width="281.3" height="14" fill="#54A24B" rx="2" />
+<text x="654.3" y="650.5" class="value-label" text-anchor="start">1.67</text>
+<rect x="368.0" y="658.5" width="337.6" height="14" fill="#B279A2" rx="2" />
+<text x="710.6" y="669.5" class="value-label" text-anchor="start">2.00</text>
+<text x="308" y="692.0" class="floor-label">floor 150</text>
+<rect x="368.0" y="674.0" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="373.0" y="685.0" class="value-label" text-anchor="start">0.00</text>
+<rect x="368.0" y="693.0" width="281.3" height="14" fill="#54A24B" rx="2" />
+<text x="654.3" y="704.0" class="value-label" text-anchor="start">1.67</text>
+<rect x="368.0" y="712.0" width="337.6" height="14" fill="#B279A2" rx="2" />
+<text x="710.6" y="723.0" class="value-label" text-anchor="start">2.00</text>
+<text x="308" y="745.5" class="floor-label">floor 200</text>
+<rect x="368.0" y="727.5" width="1.0" height="14" fill="#F58518" rx="2" />
+<text x="373.0" y="738.5" class="value-label" text-anchor="start">0.00</text>
+<rect x="368.0" y="746.5" width="281.3" height="14" fill="#54A24B" rx="2" />
+<text x="654.3" y="757.5" class="value-label" text-anchor="start">1.67</text>
+<rect x="368.0" y="765.5" width="337.6" height="14" fill="#B279A2" rx="2" />
+<text x="710.6" y="776.5" class="value-label" text-anchor="start">2.00</text>
+<text x="36" y="832" class="note">Reading: the social-floor feedback rule has small productivity costs, but it improves floor security most clearly when the target floor is 100 or higher.</text>
 </svg>
