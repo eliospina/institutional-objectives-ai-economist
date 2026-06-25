@@ -90,6 +90,9 @@ class EconoJax(Environment):
 
     isoelastic_eta: float = 0.27
     labor_coefficient: float = 1
+    equality_weight: float = 1.0  # 0 = productivity only, 1 = productivity * equality
+    social_floor: float = 0.0
+    social_floor_weight: float = 0.0  # 0 = disabled, 1 = productivity * floor security
 
     @property
     def num_agents(self):
@@ -513,12 +516,20 @@ class EconoJax(Environment):
         util_labor = state.inventory_labor * self.labor_coefficient
         util_population = util_consumption - util_labor
 
-        # Government utility: productivity * equality
-        EQUALITY_WEIGHT = 1.0  # 0 (U = prod) and 1 (U = prod * eq)
+        # Government utility: productivity weighted by explicit institutional goals.
+        # The social-floor term does not reward income equality. It rewards reducing
+        # the average shortfall below a minimum economic security threshold.
         productivity = jnp.sum(agent_total_coin) / self.num_population
         equality = 1 - get_gini(agent_total_coin)
-        equality_weighted = EQUALITY_WEIGHT * equality + (1 - EQUALITY_WEIGHT)
-        util_government = equality_weighted * productivity
+        equality_weighted = self.equality_weight * equality + (1 - self.equality_weight)
+        floor_gap = jnp.mean(jnp.maximum(self.social_floor - agent_total_coin, 0))
+        normalized_floor_gap = floor_gap / jnp.maximum(self.social_floor, 1e-6)
+        floor_security = jnp.clip(1 - normalized_floor_gap, 0, 1)
+        floor_weighted = (
+            self.social_floor_weight * floor_security
+            + (1 - self.social_floor_weight)
+        )
+        util_government = equality_weighted * floor_weighted * productivity
 
         utilities = {
             f"a{i:0{self.pop_str_width}}": util_population[i]

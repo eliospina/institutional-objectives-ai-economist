@@ -1,3 +1,30 @@
+# Institutional Objectives in AI Economist-Style Simulations
+
+This fork extends EconoJax to test **minimum social floor** objectives in an
+AI Economist-style simulation.
+
+The central question is not whether artificial planners can make agents equal.
+The question is whether institutional rules can prevent agents from falling
+below a minimum economic security threshold while preserving productivity.
+
+The first experiment compares explicit tax-and-transfer rules:
+
+```bash
+python experiments/social_floor_policy_comparison.py
+```
+
+Results are written to:
+
+```text
+results/social_floor_policy_comparison.csv
+```
+
+This is an early laboratory baseline, not a trained AI planner. The next step is
+to train a PPO government agent using the social-floor objective and compare the
+learned policy against the deterministic baselines.
+
+---
+
 # EconoJax: A Fast & Scalable Economic Simulation in JAX
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)

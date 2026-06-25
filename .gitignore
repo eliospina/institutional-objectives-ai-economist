@@ -2,6 +2,7 @@ uv.lock
 .python-version
 __pycache__/
 
+.venv/
 *.venv
 
 *.ipynb_checkpoints
